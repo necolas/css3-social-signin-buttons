@@ -11,19 +11,20 @@
 .btn-auth {
     position: relative;
     display: inline-block;
-    height: 22px;
-    padding: 0 1em;
+    height: 20px;
+    padding: 1px 1em;
     border: 1px solid #999;
     border-radius: 2px;
     margin: 0;
     text-align: center;
     text-decoration: none;
     font-size: 14px;
-    line-height: 22px;
+    line-height: 20px;
     white-space: nowrap;
     cursor: pointer;
     color: #222;
     background: #fff;
+    overflow: hidden;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
@@ -41,7 +42,8 @@
     text-decoration: none;
 }
 .btn-auth:active {
-    line-height: 23px;
+    padding-top: 2px;
+    padding-bottom: 0px;
 }
 
 .btn-auth:before {
@@ -50,6 +52,7 @@
     width: 22px;
     height: 22px;
     background: url(auth-icons.png) no-repeat 99px 99px;
+    position: relative;
 }
 
 /*
@@ -57,17 +60,15 @@
  */
 
 .btn-auth.large {
-    height: 36px;
-    line-height: 36px;
+    height: 34px;
+    line-height: 34px;
     font-size: 20px;
-}
-.btn-auth.large:active {
-    line-height: 37px;
 }
 
 .btn-auth.large:before {
     width: 36px;
     height: 36px;
+    
 }
 
 /*
@@ -117,18 +118,14 @@
 .btn-facebook:before {
     border-right: 1px solid #465f94;
     margin: 0 1em 0 -1em;
+    top: -1px;
     background-position: 0 0;
-}
-.btn-facebook:active:before {
-    background-position: 0 1px;
 }
 
 .btn-facebook.large:before {
     background-position: 0 -24px;
 }
-.btn-facebook.large:active:before {
-    background-position: 0 -23px;
-}
+
 
 /* GitHub
    ========================================================================== */
@@ -178,27 +175,23 @@
 
 .btn-github:before {
     margin: 0 0.6em 0 -0.6em;
-    background-position: -44px 0;
+    background-position: -44px -1px;
 }
 
 .btn-github:hover:before,
-.btn-github:focus:before {
-    background-position: -66px 0;
-}
+.btn-github:focus:before,
 .btn-github:active:before {
-    background-position: -66px 1px;
+    background-position: -66px -1px;
 }
 
 .btn-github.large:before {
-    background-position: -72px -24px;
+    background-position: -72px -25px;
 }
 
 .btn-github.large:hover:before,
-.btn-github.large:focus:before {
-    background-position: -108px -24px;
-}
+.btn-github.large:focus:before,
 .btn-github.large:active:before {
-    background-position: -108px -23px;
+    background-position: -108px -25px;
 }
 
 /* Google
@@ -240,18 +233,13 @@
 
 .btn-google:before {
     margin: 0 1em 0 -1em;
+    top: -1px;
     background-position: -88px 0;
     background-color: #e6e6e6;
-}
-.btn-google:active:before {
-    background-position: -88px 1px;
 }
 
 .btn-google.large:before {
     background-position: -144px -24px;
-}
-.btn-google.large:active:before {
-    background-position: -144px -23px;
 }
 
 
@@ -274,17 +262,11 @@
 
 .btn-openid:before {
     margin: 0 0.6em 0 -0.6em;
-    background-position: -154px 0;
-}
-.btn-openid:active:before {
-    background-position: -154px 1px;
+    background-position: -154px -1px;
 }
 
 .btn-openid.large:before {
-    background-position: -252px -24px;
-}
-.btn-openid.large:active:before {
-    background-position: -252px -23px;
+    background-position: -252px -25px;
 }
 
 
@@ -325,18 +307,13 @@
 
 .btn-twitter:before {
     margin: 0 0.6em 0 -0.6em;
-    background-position: -22px 0;
-}
-.btn-twitter:active:before {
-    background-position: -22px 1px;
+    background-position: -22px -1px;
 }
 
 .btn-twitter.large:before {
-    background-position: -36px -24px;
+    background-position: -36px -25px;
 }
-.btn-twitter.large:active:before {
-    background-position: -36px -23px;
-}
+
 
 
 /* Windows Live ID
@@ -358,17 +335,11 @@
 
 .btn-windows:before {
     margin: 0 0.6em 0 -0.6em;
-    background-position: -110px 0;
-}
-.btn-windows:active:before {
-    background-position: -110px 1px;
+    background-position: -110px -1px;
 }
 
 .btn-windows.large:before {
-    background-position: -180px -24px;
-}
-.btn-windows.large:active:before {
-    background-position: -180px -23px;
+    background-position: -180px -25px;
 }
 
 /* Yahoo!
@@ -404,15 +375,9 @@
 
 .btn-yahoo:before {
     margin: 0 0.6em 0 -0.6em;
-    background-position: -132px 0;
-}
-.btn-yahoo:active:before {
-    background-position: -132px 1px;
+    background-position: -132px -1px;
 }
 
 .btn-yahoo.large:before {
-    background-position: -216px -24px;
-}
-.btn-yahoo.large:active:before {
-    background-position: -216px -23px;
+    background-position: -216px -25px;
 }
