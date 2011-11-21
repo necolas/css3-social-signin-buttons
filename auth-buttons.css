@@ -40,6 +40,9 @@
 .btn-auth:active {
     text-decoration: none;
 }
+.btn-auth:active {
+    line-height: 23px;
+}
 
 .btn-auth:before {
     content: "";
@@ -57,6 +60,9 @@
     height: 36px;
     line-height: 36px;
     font-size: 20px;
+}
+.btn-auth.large:active {
+    line-height: 37px;
 }
 
 .btn-auth.large:before {
@@ -113,11 +119,16 @@
     margin: 0 1em 0 -1em;
     background-position: 0 0;
 }
-
-.btn-facebook.large:before {
-    background-position: 0 -22px;
+.btn-facebook:active:before {
+    background-position: 0 1px;
 }
 
+.btn-facebook.large:before {
+    background-position: 0 -24px;
+}
+.btn-facebook.large:active:before {
+    background-position: 0 -23px;
+}
 
 /* GitHub
    ========================================================================== */
@@ -171,21 +182,24 @@
 }
 
 .btn-github:hover:before,
-.btn-github:focus:before,
-.btn-github:active:before {
+.btn-github:focus:before {
     background-position: -66px 0;
+}
+.btn-github:active:before {
+    background-position: -66px 1px;
 }
 
 .btn-github.large:before {
-    background-position: -72px -22px;
+    background-position: -72px -24px;
 }
 
 .btn-github.large:hover:before,
-.btn-github.large:focus:before,
-.btn-github.large:active:before {
-    background-position: -108px -22px;
+.btn-github.large:focus:before {
+    background-position: -108px -24px;
 }
-
+.btn-github.large:active:before {
+    background-position: -108px -23px;
+}
 
 /* Google
    ========================================================================== */
@@ -229,9 +243,15 @@
     background-position: -88px 0;
     background-color: #e6e6e6;
 }
+.btn-google:active:before {
+    background-position: -88px 1px;
+}
 
 .btn-google.large:before {
-    background-position: -144px -22px;
+    background-position: -144px -24px;
+}
+.btn-google.large:active:before {
+    background-position: -144px -23px;
 }
 
 
@@ -256,9 +276,15 @@
     margin: 0 0.6em 0 -0.6em;
     background-position: -154px 0;
 }
+.btn-openid:active:before {
+    background-position: -154px 1px;
+}
 
 .btn-openid.large:before {
-    background-position: -252px -22px;
+    background-position: -252px -24px;
+}
+.btn-openid.large:active:before {
+    background-position: -252px -23px;
 }
 
 
@@ -301,9 +327,15 @@
     margin: 0 0.6em 0 -0.6em;
     background-position: -22px 0;
 }
+.btn-twitter:active:before {
+    background-position: -22px 1px;
+}
 
 .btn-twitter.large:before {
-    background-position: -36px -22px;
+    background-position: -36px -24px;
+}
+.btn-twitter.large:active:before {
+    background-position: -36px -23px;
 }
 
 
@@ -328,11 +360,16 @@
     margin: 0 0.6em 0 -0.6em;
     background-position: -110px 0;
 }
-
-.btn-windows.large:before {
-    background-position: -180px -22px;
+.btn-windows:active:before {
+    background-position: -110px 1px;
 }
 
+.btn-windows.large:before {
+    background-position: -180px -24px;
+}
+.btn-windows.large:active:before {
+    background-position: -180px -23px;
+}
 
 /* Yahoo!
    ========================================================================== */
@@ -369,7 +406,13 @@
     margin: 0 0.6em 0 -0.6em;
     background-position: -132px 0;
 }
+.btn-yahoo:active:before {
+    background-position: -132px 1px;
+}
 
 .btn-yahoo.large:before {
-    background-position: -216px -22px;
+    background-position: -216px -24px;
+}
+.btn-yahoo.large:active:before {
+    background-position: -216px -23px;
 }
