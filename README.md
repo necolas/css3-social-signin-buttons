@@ -4,9 +4,9 @@ by [Nicolas Gallagher](http://nicolasgallagher.com)
 
 ## Standard buttons
 
-To create the default sign-in button, add a class of `btn-auth` and `btn-[service]` (where `[service]` is one of the supported social sign-in services) to any appropriate element (most likely an anchor).
+To create the default sign-in button, add a class of `btn-[service]` (where `[service]` is one of the supported social sign-in services) to any appropriate element (most likely an anchor).
 
-    <a class="btn-auth btn-[service]" href="#">
+    <a class="btn-[service]" href="#">
         Sign in with <b>[service]</b>
     </a>
 
@@ -14,7 +14,7 @@ To create the default sign-in button, add a class of `btn-auth` and `btn-[servic
 
 To create large buttons include an additional class of `large`
 
-    <a class="btn-auth btn-[service] large" href="#">
+    <a class="btn-[service] large" href="#">
         Sign in with <b>[service]</b>
     </a>
 
