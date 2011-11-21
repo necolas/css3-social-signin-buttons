@@ -1,0 +1,279 @@
+// To compile this to CSS:
+//     $ gem install compass
+//     $ sass --style expanded --compass auth-buttons.scss:auth-buttons.css
+
+@import "compass";
+
+.btn-auth {
+    position: relative;
+    @include inline-block;
+    height: 22px;
+    padding: 0 1em;
+    border: 1px solid #999;
+    @include border-radius(2px);
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 22px;
+    white-space: nowrap;
+    cursor: pointer;
+    color: #222;
+    background: #fff;
+    @include box-sizing(content-box);
+    // iOS
+    -webkit-appearance: none;
+    // IE6/7 hacks
+    *overflow: visible;
+    *display: inline;
+    *zoom: 1;
+    
+    &:hover,
+    &:focus,
+    &:active {
+        text-decoration: none;
+    }
+    
+    &:before {
+        content: "";
+        float: left;
+        width: 22px;
+        height: 22px;
+        background: url("auth-icons.png") no-repeat 99px 99px;
+    }
+    
+    // 36px
+    &.large {
+        height: 36px;
+        line-height: 36px;
+        font-size: 20px;
+    }
+    
+    &.large:before {
+        width: 36px;
+        height: 36px;
+    }
+    
+    // Remove excess padding and border in FF3+
+    &::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+    }
+}
+
+// Facebook
+.btn-facebook {
+    @extend .btn-auth;
+    border-color: #29447e;
+    border-bottom-color: #1a356e;
+    color: #fff;
+    @include background(#5872a7 linear-gradient(top, #637bad, #5872a7));
+    @include text-shadow(rgba(0, 0, 0, 0.25) 0 -1px 0);
+    @include box-shadow(#879ac0 0 1px 0 inset);
+    
+    &:hover,
+    &:focus {
+        background-color: #3b5998;
+    }
+    
+    &:active {
+        background: #4f6aa3;
+        @include box-shadow(#45619d 0 1px 0 inset);
+    }
+    
+    // Icon
+    &:before {
+        border-right: 1px solid #465f94;
+        margin: 0 1em 0 -1em;
+        background-position: 0 0;
+    }
+    
+    &.large:before {
+        background-position: 0 -22px;
+    }
+}
+
+// GitHub
+.btn-github {
+    @extend .btn-auth;
+    border-color: #d4d4d4;
+    @include background(#ececec linear-gradient(top, #f4f4f4, #ececec));
+    @include text-shadow(#fff 1px 1px 0);
+    
+    &:hover,
+    &:focus {
+        border-color: #518cc6;
+        border-bottom-color: #2a65a0;
+        color: #fff;
+        @include background(#599bdc linear-gradient(top, #599bdc, #3072b3));
+        @include text-shadow(rgba(0,0,0,0.3) -1px -1px 0);
+    }
+    
+    &:active {
+        border-color: #2a65a0;
+        border-bottom-color: #518cc6;
+        @include background(#3072b3 linear-gradient(top, #3072b3, #599bdc));
+    }
+    
+    // Icon
+    &:before {
+        margin: 0 0.6em 0 -0.6em;
+        background-position: -44px 0;
+    }
+    
+    &:hover:before,
+    &:focus:before,
+    &:active:before {
+        background-position: -66px 0;
+    }
+    
+    &.large:before {
+        background-position: -72px -22px;
+    }
+    
+    &.large:hover:before,
+    &.large:focus:before,
+    &.large:active:before {
+        background-position: -108px -22px;
+    }
+}
+
+// Google
+.btn-google {
+    @extend .btn-auth;
+    border-color: #3079ed;
+    color: #fff;
+    @include background(#4787ed linear-gradient(top, #4d90fe, #4787ed));
+    @include text-shadow(rgba(0,0,0,0.1) 0 1px);
+    
+    &:hover,
+    &:focus {
+        @include background(#357ae8 linear-gradient(top, #4d90fe, #357ae8));
+        @include text-shadow(rgba(0,0,0,0.3) 0 1px);
+    }
+    
+    &:active {
+        @include box-shadow(rgba(0,0,0,0.3) 0 1px 2px);
+    }
+    
+    // Icon
+    &:before {
+        margin: 0 1em 0 -1em;
+        background-position: -88px 0;
+        background-color: #e6e6e6;
+    }
+    
+    &.large:before {
+        background-position: -144px -22px;
+    }
+}
+
+// Open ID
+.btn-openid {
+    @extend .btn-auth;
+    
+    &:hover,
+    &:focus {
+        border-color: #777;
+        background: #fcfcfc;
+    }
+    
+    &:active {
+        background: #f5f5f5;
+    }
+    
+    // Icon
+    &:before {
+        margin: 0 0.6em 0 -0.6em;
+        background-position: -154px 0;
+    }
+    
+    &.large:before {
+        background-position: -252px -22px;
+    }
+}
+
+// Twitter
+.btn-twitter {
+    @extend .btn-auth;
+    border-color: #a6cde6;
+    color: #327695;
+    @include background(#cfe4f0 linear-gradient(top, #f1f5f7, rgba(255,255,255,0)));
+    @include text-shadow(#bcd3df 1px 0 0);
+    @include box-shadow(#fff 0 1px 0 inset);
+    
+    &:hover,
+    &:focus {
+        border-color: #8dc2e4;
+        background-color: #cadde9;
+    }
+    
+    &:active {
+        background: #cadde9;
+        @include box-shadow(#bbd6e7 0 1px 0 inset);
+    }
+    
+    // Icon
+    &:before {
+        margin: 0 0.6em 0 -0.6em;
+        background-position: -22px 0;
+    }
+    
+    &.large:before {
+        background-position: -36px -22px;
+    }
+}
+
+// Windows Live ID
+.btn-windows {
+    @extend .btn-auth;
+    
+    &:hover,
+    &:focus {
+        border-color: #777;
+        background: #fcfcfc;
+    }
+    
+    &:active {
+        background: #f5f5f5;
+    }
+    
+    // Icon
+    &:before {
+        margin: 0 0.6em 0 -0.6em;
+        background-position: -110px 0;
+    }
+    
+    &.large:before {
+        background-position: -180px -22px;
+    }
+}
+
+// Yahoo!
+.btn-yahoo {
+    @extend .btn-auth;
+    border-color: #ffb305;
+    @include background(#ffc426 linear-gradient(top, rgba(255,255,255,0.5), rgba(255,255,255,0)));
+    @include text-shadow(rgba(0,0,0,0.1) -1px -1px 0);
+    
+    &:hover,
+    &:focus {
+        background-color: #fabf20;
+    }
+    
+    &:active {
+        border-color: #f09700;
+        background-image: none;
+        @include box-shadow(rgba(0,0,0,0.3) 0 1px 1px inset);
+    }
+    
+    // Icon
+    &:before {
+        margin: 0 0.6em 0 -0.6em;
+        background-position: -132px 0;
+    }
+    
+    &.large:before {
+        background-position: -216px -22px;
+    }
+}
