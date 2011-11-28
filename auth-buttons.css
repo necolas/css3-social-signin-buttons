@@ -284,6 +284,7 @@
 
 .btn-twitter:hover,
 .btn-twitter:focus {
+    color: #327695;
     border-color: #8dc2e4;
     background-color: #cadde9;
 }
