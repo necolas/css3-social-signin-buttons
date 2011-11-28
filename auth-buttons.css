@@ -96,6 +96,7 @@
 .btn-facebook:hover,
 .btn-facebook:focus {
     background-color: #3b5998;
+    color: #fff;
 }
 
 .btn-facebook:active {
@@ -283,6 +284,7 @@
 
 .btn-twitter:hover,
 .btn-twitter:focus {
+    color: #327695;
     border-color: #8dc2e4;
     background-color: #cadde9;
 }
