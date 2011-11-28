@@ -96,6 +96,7 @@
 .btn-facebook:hover,
 .btn-facebook:focus {
     background-color: #3b5998;
+    color: #fff;
 }
 
 .btn-facebook:active {
