@@ -373,3 +373,50 @@
 .btn-yahoo.large:before {
     background-position: -216px -22px;
 }
+
+/* LinkedIn
+   ========================================================================== */
+
+.btn-linkedin {
+    border-color: #ccc;
+    color: #333;
+    background: #dfdfdf;
+    /* css3 */
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255,255,255,0.5)), to(rgba(255,255,255,0)));
+    background-image: -webkit-linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0));
+    background-image: -moz-linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0));
+    background-image: -ms-linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0));
+    background-image: -o-linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0));
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0));
+    border-radius: .25em 0 0 .25em;
+}
+
+.btn-linkedin:hover,
+.btn-linkedin:focus {
+    border-color: #ddd;
+    background-color: #eee;
+}
+
+.btn-linkedin:active {
+    background: #eee;
+    -webkit-box-shadow: inset 0 1px 0 #ccc;
+       -moz-box-shadow: inset 0 1px 0 #ccc;
+            box-shadow: inset 0 1px 0 #ccc;
+}
+
+/*
+ * Icon
+ */
+
+.btn-linkedin:before {
+    margin: 0 0.6em 0 -1em;
+    background-position: -176px 0;
+}
+
+.btn-linkedin.large:before {
+    background-position: -288px -22px;
+}
+
+
+/* Windows Live ID
+   ========================================================================== */
