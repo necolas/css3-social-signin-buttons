@@ -23,6 +23,7 @@ To create large buttons include an additional class of `large`
 * Facebook
 * GitHub
 * Google
+* LinkedIn
 * OpenID
 * Twitter
 * Windows Live ID
