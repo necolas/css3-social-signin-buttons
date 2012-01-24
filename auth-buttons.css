@@ -38,6 +38,7 @@
 .btn-auth:hover,
 .btn-auth:focus,
 .btn-auth:active {
+    color: #222;
     text-decoration: none;
 }
 
@@ -95,10 +96,12 @@
 
 .btn-facebook:hover,
 .btn-facebook:focus {
+    color: #fff;
     background-color: #3b5998;
 }
 
 .btn-facebook:active {
+    color: #fff;
     background: #4f6aa3;
     -webkit-box-shadow: inset 0 1px 0 #45619d;
     box-shadow: inset 0 1px 0 #45619d;
@@ -152,6 +155,7 @@
 .btn-github:active {
     border-color: #2A65A0;
     border-bottom-color: #518CC6;
+    color: #fff;
     background: #3072B3;
     background: -webkit-gradient(linear, 0 0, 0 100%, from(#3072b3), to(#599bdc));
     background: -webkit-linear-gradient(#3072b3, #599bdc);
@@ -204,7 +208,9 @@
 }
 
 .btn-google:hover,
-.btn-google:focus {
+.btn-google:focus,
+.btn-google:active {
+    color: #fff;
     background-color: #357ae8;
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4d90fe), to(#357ae8));
     background-image: -webkit-linear-gradient(#4d90fe, #357ae8);
@@ -282,7 +288,9 @@
 }
 
 .btn-twitter:hover,
-.btn-twitter:focus {
+.btn-twitter:focus,
+.btn-twitter:active {
+    color: #327695;    
     border-color: #8dc2e4;
     background-color: #cadde9;
 }
