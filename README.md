@@ -27,6 +27,7 @@ To create large buttons include an additional class of `large`
 * Twitter
 * Windows Live ID
 * Yahoo!
+* Linkedin
 
 ## Source code
 

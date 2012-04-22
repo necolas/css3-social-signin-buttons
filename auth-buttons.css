@@ -374,3 +374,49 @@
 .btn-yahoo.large:before {
     background-position: -216px -22px;
 }
+
+
+
+
+/* Linkedin
+   ========================================================================== */
+
+/* GitHub
+   ========================================================================== */
+
+.btn-linkedin {
+    border-color: #d4d4d4;
+    background: #ececec;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f4f4f4), to(#ececec));
+    background-image: -webkit-linear-gradient(#f4f4f4, #ececec);
+    background-image: -moz-linear-gradient(#f4f4f4, #ececec);
+    background-image: -ms-linear-gradient(#f4f4f4, #ececec);
+    background-image: -o-linear-gradient(#f4f4f4, #ececec);
+    background-image: linear-gradient(#f4f4f4, #ececec);
+}
+
+.btn-linkedin:hover,
+.btn-linkedin:focus {
+    border-color: #518cc6;
+    border-bottom-color: #2a65a0;
+}
+
+/*
+ * Icon
+ */
+
+.btn-linkedin:before,
+.btn-linkedin:hover:before,
+.btn-linkedin:focus:before,
+.btn-linkedin:active:before {
+    margin: 0 0.6em 0 -0.6em;
+    background-position: -176px 0;
+}
+
+
+.btn-linkedin.large:before,
+.btn-linkedin.large:hover:before,
+.btn-linkedin.large:focus:before,
+.btn-linkedin.large:active:before {
+    background-position: -287px -22px;
+}
