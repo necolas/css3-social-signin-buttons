@@ -267,6 +267,52 @@
 }
 
 
+/* tumblr
+   ========================================================================== */
+
+.btn-tumblr {
+    border-color: #3a5a71;
+    color: #fff;
+    background: #4b7595;
+    /* css3 */
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4b7595), to(#345773));
+    background-image: -webkit-linear-gradient(#4b7595, #345773);
+    background-image: -moz-linear-gradient(#4b7595, #345773);
+    background-image: -ms-linear-gradient(#4b7595, #345773);
+    background-image: -o-linear-gradient(#4b7595, #345773);
+    background-image: linear-gradient(#4b7595, #345773);
+    -webkit-box-shadow: inset 0 1px 0 #6086a2;
+    box-shadow: inset 0 1px 0 #6086a2;
+}
+
+.btn-tumblr:hover,
+.btn-tumblr:focus {
+    color: #fff;
+    background: #3a5a71;
+}
+
+.btn-tumblr:active {
+    color: #fff;
+    background: #6086a2;
+    -webkit-box-shadow: inset 0 1px 0 #45619d;
+    box-shadow: inset 0 1px 0 #45619d;
+}
+
+/*
+ * Icon
+ */
+
+.btn-tumblr:before {
+    border-right: 1px solid #3a5a71;
+    margin: 0 1em 0 -1em;
+    background-position: -176px 0;
+}
+
+.btn-tumblr.large:before {
+    background-position: -288px -22px;
+}
+
+
 /* Twitter
    ========================================================================== */
 
