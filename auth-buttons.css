@@ -86,7 +86,7 @@
     border-color: #29447e;
     border-bottom-color: #1a356e;
     color: #fff;
-    background-color: #5872a7;
+    background: #5872a7;
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#637bad), to(#5872a7));
     background-image: -webkit-linear-gradient(#637bad, #5872a7);
     background-image: -moz-linear-gradient(#637bad, #5872a7);
@@ -94,19 +94,21 @@
     background-image: -o-linear-gradient(#637bad, #5872a7);
     background-image: linear-gradient(#637bad, #5872a7);
     -webkit-box-shadow: inset 0 1px 0 #879ac0;
+    -moz-box-shadow: inset 0 1px 0 #879ac0;
     box-shadow: inset 0 1px 0 #879ac0;
 }
 
 .btn-facebook:hover,
 .btn-facebook:focus {
     color: #fff;
-    background-color: #3b5998;
+    background: #3b5998;
 }
 
 .btn-facebook:active {
     color: #fff;
     background: #4f6aa3;
     -webkit-box-shadow: inset 0 1px 0 #45619d;
+    -moz-box-shadow: inset 0 1px 0 #45619d;
     box-shadow: inset 0 1px 0 #45619d;
 }
 
@@ -144,7 +146,7 @@
     border-color: #518cc6;
     border-bottom-color: #2a65a0;
     color: #fff;
-    background-color: #599bdc;
+    background: #599bdc;
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#599bdc), to(#3072b3));
     background-image: -webkit-linear-gradient(#599bdc, #3072b3);
     background-image: -moz-linear-gradient(#599bdc, #3072b3);
@@ -211,7 +213,7 @@
 .btn-google:focus,
 .btn-google:active {
     color: #fff;
-    background-color: #357ae8;
+    background: #357ae8;
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4d90fe), to(#357ae8));
     background-image: -webkit-linear-gradient(#4d90fe, #357ae8);
     background-image: -moz-linear-gradient(#4d90fe, #357ae8);
@@ -222,6 +224,7 @@
 
 .btn-google:active {
     -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
     box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
 }
 
@@ -232,7 +235,7 @@
 .btn-google:before {
     margin: 0 1em 0 -1em;
     background-position: -88px 0;
-    background-color: #e6e6e6;
+    background: #e6e6e6;
 }
 
 .btn-google.large:before {
@@ -282,6 +285,7 @@
     background-image: -o-linear-gradient(#4b7595, #345773);
     background-image: linear-gradient(#4b7595, #345773);
     -webkit-box-shadow: inset 0 1px 0 #6086a2;
+    -moz-box-shadow: inset 0 1px 0 #6086a2;
     box-shadow: inset 0 1px 0 #6086a2;
 }
 
@@ -295,6 +299,7 @@
     color: #fff;
     background: #6086a2;
     -webkit-box-shadow: inset 0 1px 0 #45619d;
+    -moz-box-shadow: inset 0 1px 0 #45619d;
     box-shadow: inset 0 1px 0 #45619d;
 }
 
@@ -328,20 +333,22 @@
     background-image: -o-linear-gradient(#f1f5f7, rgba(255,255,255,0));
     background-image: linear-gradient(#f1f5f7, rgba(255,255,255,0));
     -webkit-box-shadow: inset 0 1px 0 #fff;
+    -moz-box-shadow: inset 0 1px 0 #fff;
     box-shadow: inset 0 1px 0 #fff;
 }
 
 .btn-twitter:hover,
 .btn-twitter:focus,
 .btn-twitter:active {
-    color: #327695;    
+    color: #327695;
     border-color: #8dc2e4;
-    background-color: #cadde9;
+    background: #cadde9;
 }
 
 .btn-twitter:active {
     background: #cadde9;
     -webkit-box-shadow: inset 0 1px 0 #bbd6e7;
+    -moz-box-shadow: inset 0 1px 0 #bbd6e7;
     box-shadow: inset 0 1px 0 #bbd6e7;
 }
 
@@ -402,13 +409,14 @@
 
 .btn-yahoo:hover,
 .btn-yahoo:focus {
-    background-color: #fabf20;
+    background: #fabf20;
 }
 
 .btn-yahoo:active {
     border-color: #f09700;
     background-image: none;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.3);
     box-shadow: inset 0 1px 1px rgba(0,0,0,0.3);
 }
 
