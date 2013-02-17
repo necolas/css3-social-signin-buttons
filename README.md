@@ -1,6 +1,7 @@
 # CSS3 Social Sign-in Buttons
 
 by [Nicolas Gallagher](http://nicolasgallagher.com)
+forked and enhanced by [Josh Sherman](http://joshtronic.com)
 
 ## Standard buttons
 
@@ -24,18 +25,17 @@ To create large buttons include an additional class of `large`
 * GitHub
 * Google
 * OpenID
+* Tumblr
 * Twitter
 * Windows Live ID
 * Yahoo!
 
 ## Source code
 
-Available on GitHub: [necolas/css3-social-signin-buttons](http://github.com/necolas/css3-social-signin-buttons)
+Available on GitHub:
 
-Download it in either [zip](http://github.com/necolas/css3-social-signin-buttons/zipball/master) or [tar](http://github.com/necolas/css3-social-signin-buttons/tarball/master) formats.</p>
-
-Clone the project with Git by running:
-`$ git clone git://github.com/necolas/css3-social-signin-buttons.git`
+This fork [joshtronic/css3-social-signin-buttons](http://github.com/joshtronic/css3-social-signin-buttons)
+Original [necolas/css3-social-signin-buttons](http://github.com/necolas/css3-social-signin-buttons)
 
 ## Browser compatibility
 
