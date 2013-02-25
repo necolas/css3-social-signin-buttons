@@ -31,9 +31,12 @@ To create large buttons include an additional class of `large`
 
 ## Source code
 
-Available on GitHub:
+Available on GitHub: [necolas/css3-social-signin-buttons](http://github.com/necolas/css3-social-signin-buttons)
 
-Original [necolas/css3-social-signin-buttons](http://github.com/necolas/css3-social-signin-buttons)
+Download it in either [zip](http://github.com/necolas/css3-social-signin-buttons/zipball/master) or [tar](http://github.com/necolas/css3-social-signin-buttons/tarball/master) formats.</p>
+
+Clone the project with Git by running:
+`$ git clone git://github.com/necolas/css3-social-signin-buttons.git`
 
 ## Browser compatibility
 
