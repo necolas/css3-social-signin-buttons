@@ -1,7 +1,6 @@
 # CSS3 Social Sign-in Buttons
 
 by [Nicolas Gallagher](http://nicolasgallagher.com)
-forked and enhanced by [Josh Sherman](http://joshtronic.com)
 
 ## Standard buttons
 
@@ -34,7 +33,6 @@ To create large buttons include an additional class of `large`
 
 Available on GitHub:
 
-This fork [joshtronic/css3-social-signin-buttons](http://github.com/joshtronic/css3-social-signin-buttons)
 Original [necolas/css3-social-signin-buttons](http://github.com/necolas/css3-social-signin-buttons)
 
 ## Browser compatibility
