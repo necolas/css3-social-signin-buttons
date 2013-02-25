@@ -24,6 +24,7 @@ To create large buttons include an additional class of `large`
 * GitHub
 * Google
 * OpenID
+* Tumblr
 * Twitter
 * Windows Live ID
 * Yahoo!
