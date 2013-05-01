@@ -14,3 +14,5 @@
 .DS_Store
 Thumbs.db
 .cache
+/.idea
+/*.iml

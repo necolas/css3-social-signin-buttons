@@ -191,34 +191,27 @@
 /* Google
    ========================================================================== */
 
+/* https://developers.google.com/+/branding-guidelines */
+/* https://developers.google.com/+/web/signin/ */
 .btn-google {
-    border-color: #3079ed;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.10);
     color: #fff;
-    background: #4787ed;
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4d90fe), to(#4787ed));
-    background-image: -webkit-linear-gradient(#4d90fe, #4787ed);
-    background-image: -moz-linear-gradient(#4d90fe, #4787ed);
-    background-image: -ms-linear-gradient(#4d90fe, #4787ed);
-    background-image: -o-linear-gradient(#4d90fe, #4787ed);
-    background-image: linear-gradient(#4d90fe, #4787ed);
+    background: #dd4b39;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 12px;
+    height: 31px;
+    line-height: 31px;
+    padding: 0 20px;
 }
 
 .btn-google:hover,
 .btn-google:focus,
 .btn-google:active {
     color: #fff;
-    background-color: #357ae8;
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4d90fe), to(#357ae8));
-    background-image: -webkit-linear-gradient(#4d90fe, #357ae8);
-    background-image: -moz-linear-gradient(#4d90fe, #357ae8);
-    background-image: -ms-linear-gradient(#4d90fe, #357ae8);
-    background-image: -o-linear-gradient(#4d90fe, #357ae8);
-    background-image: linear-gradient(#4d90fe, #357ae8);
-}
-
-.btn-google:active {
-    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
-    box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+    background-color: #e74b37;
+    box-shadow: inset 0 -2px 0 rgba(0,0,0,.20);
 }
 
 /*
@@ -226,15 +219,25 @@
  */
 
 .btn-google:before {
-    margin: 0 1em 0 -1em;
-    background-position: -88px 0;
-    background-color: #e6e6e6;
+    padding: 0 2px;
+    margin: 0 1em 0 -16px;
+    background: url(google_plus.png) no-repeat;
+    background-position: center;
+    background-size: 28px 28px;
+    border-right: 1px solid #bb3f30;
+    width: 24px;
+    height: 100%;
+}
+.btn-google:hover:before,
+.btn-google:focus:before,
+.btn-google:active:before {
+    border-color: #c33f2e;
 }
 
 .btn-google.large:before {
-    background-position: -144px -22px;
+    margin: 0 1em 0 -16px;
+    background-size: 40px 40px;
 }
-
 
 /* Open ID
    ========================================================================== */
