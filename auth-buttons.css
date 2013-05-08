@@ -1,8 +1,8 @@
-/*
+/**
  * Button Object
  */
 
-/*
+/**
  * 1. Corrects inability to style clickable 'input' types in iOS
  * 2. Remove excess padding in IE6/7
  * 3. IE6/7 inline-block hack for native block-level elements
@@ -51,7 +51,7 @@
     background: url(auth-icons.png) no-repeat 99px 99px;
 }
 
-/*
+/**
  * 36px
  */
 
@@ -221,8 +221,8 @@
 }
 
 .btn-google:active {
-    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
-    box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 /*
@@ -276,12 +276,12 @@
     color: #327695;
     background: #cfe4f0;
     /* css3 */
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f1f5f7), to(rgba(255,255,255,0)));
-    background-image: -webkit-linear-gradient(#f1f5f7, rgba(255,255,255,0));
-    background-image: -moz-linear-gradient(#f1f5f7, rgba(255,255,255,0));
-    background-image: -ms-linear-gradient(#f1f5f7, rgba(255,255,255,0));
-    background-image: -o-linear-gradient(#f1f5f7, rgba(255,255,255,0));
-    background-image: linear-gradient(#f1f5f7, rgba(255,255,255,0));
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f1f5f7), to(rgba(255, 255, 255, 0)));
+    background-image: -webkit-linear-gradient(#f1f5f7, rgba(255, 255, 255, 0));
+    background-image: -moz-linear-gradient(#f1f5f7, rgba(255, 255, 255, 0));
+    background-image: -ms-linear-gradient(#f1f5f7, rgba(255, 255, 255, 0));
+    background-image: -o-linear-gradient(#f1f5f7, rgba(255, 255, 255, 0));
+    background-image: linear-gradient(#f1f5f7, rgba(255, 255, 255, 0));
     -webkit-box-shadow: inset 0 1px 0 #fff;
     box-shadow: inset 0 1px 0 #fff;
 }
@@ -348,12 +348,12 @@
 .btn-yahoo:visited {
     border-color: #ffb305;
     background: #ffc426;
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255,255,255,0.5)), to(rgba(255,255,255,0)));
-    background-image: -webkit-linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0));
-    background-image: -moz-linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0));
-    background-image: -ms-linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0));
-    background-image: -o-linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0));
-    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0));
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0)));
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+    background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+    background-image: -ms-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+    background-image: -o-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
 }
 
 .btn-yahoo:hover,
@@ -364,8 +364,8 @@
 .btn-yahoo:active {
     border-color: #f09700;
     background-image: none;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.3);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 /*
