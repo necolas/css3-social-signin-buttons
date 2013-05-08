@@ -8,7 +8,8 @@
  * 3. IE6/7 inline-block hack for native block-level elements
  */
 
-.btn-auth {
+.btn-auth,
+.btn-auth:visited {
     position: relative;
     display: inline-block;
     height: 22px;
@@ -78,7 +79,8 @@
 /* Facebook (extends .btn-auth)
    ========================================================================== */
 
-.btn-facebook {
+.btn-facebook,
+.btn-facebook:visited {
     border-color: #29447e;
     border-bottom-color: #1a356e;
     color: #fff;
@@ -124,7 +126,8 @@
 /* GitHub
    ========================================================================== */
 
-.btn-github {
+.btn-github,
+.btn-github:visited {
     border-color: #d4d4d4;
     background: #ececec;
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f4f4f4), to(#ececec));
@@ -191,7 +194,8 @@
 /* Google
    ========================================================================== */
 
-.btn-google {
+.btn-google,
+.btn-google:visited {
     border-color: #3079ed;
     color: #fff;
     background: #4787ed;
@@ -266,7 +270,8 @@
 /* Twitter
    ========================================================================== */
 
-.btn-twitter {
+.btn-twitter,
+.btn-twitter:visited {
     border-color: #a6cde6;
     color: #327695;
     background: #cfe4f0;
@@ -284,7 +289,7 @@
 .btn-twitter:hover,
 .btn-twitter:focus,
 .btn-twitter:active {
-    color: #327695;    
+    color: #327695;
     border-color: #8dc2e4;
     background-color: #cadde9;
 }
@@ -339,7 +344,8 @@
 /* Yahoo!
    ========================================================================== */
 
-.btn-yahoo {
+.btn-yahoo,
+.btn-yahoo:visited {
     border-color: #ffb305;
     background: #ffc426;
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255,255,255,0.5)), to(rgba(255,255,255,0)));
