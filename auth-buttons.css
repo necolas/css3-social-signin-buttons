@@ -28,6 +28,10 @@
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     /* iOS */
     -webkit-appearance: none; /* 1 */
     /* IE6/7 hacks */
