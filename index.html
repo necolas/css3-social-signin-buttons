@@ -1,12 +1,12 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-<head> 
-    <meta charset="utf-8"> 
-    <title>CSS3 Social Sign-in Buttons</title> 
-    <meta name="description" content="Using CSS3 to create social sign-in buttons for Facebook, Twitter, Google, GitHub, Windows Live ID, Yahoo!, and OpenID"> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CSS3 Social Sign-in Buttons</title>
+    <meta name="description" content="Using CSS3 to create social sign-in buttons for Facebook, Twitter, Google, GitHub, Windows Live ID, Yahoo!, and OpenID">
     <style>
         /* BASE */
-        
+
         html { font-size:100%; }
         body { padding: 40px 0 20px; margin: 0; font: 13px/1.333 "lucida grande", tahoma, sans-serif; color: #333; background: #fff;}
 
@@ -45,7 +45,7 @@
         .example p:first-child { margin: 0; }
 
         .footer { margin: 20px 0 50px; font-size: 11px; color: #666; text-align: center; }
-        .footer a { color: #666;} 
+        .footer a { color: #666;}
 
         /* SMALL */
 
@@ -55,23 +55,23 @@
             .footer { margin-bottom: 20px; }
         }
     </style>
-    
+
     <link rel="stylesheet" href="auth-buttons.css">
-    
+
     <!-- prettyify -->
-    <link rel="stylesheet" href="http://google-code-prettify.googlecode.com/svn/trunk/src/prettify.css"> 
-    <script src="http://google-code-prettify.googlecode.com/svn/trunk/src/prettify.js"></script> 
+    <link rel="stylesheet" href="http://google-code-prettify.googlecode.com/svn/trunk/src/prettify.css">
+    <script src="http://google-code-prettify.googlecode.com/svn/trunk/src/prettify.js"></script>
 </head>
 
 <body onload="prettyPrint()">
 
 <div class="container">
     <a class="ribbon" href="http://github.com/necolas/css3-social-signin-buttons" target="_blank"><img src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
-    
+
     <div class="header">
         <h1>CSS3 Social Sign-in Buttons</h1>
     </div>
-    
+
     <div class="section">
         <h2>Standard Buttons</h2>
         <p>To create the default sign-in button, add a class of <code>btn-auth</code> and <code>btn-[service]</code> (where <code>[service]</code> is one of the supported social sign-in services) to any appropriate element (most likely an anchor).</p>
@@ -91,11 +91,11 @@
             </div>
         </div>
     </div>
-    
+
     <div class="section">
         <h2>Larger buttons</h2>
         <p>To create larger buttons include an additional class of <code>large</code>.</p>
-        
+
         <div class="example">
             <pre class="prettyprint"><code>&lt;a class="btn-auth btn-[service] large" href="#">
     Sign in with &lt;b>[service]&lt;/b>
