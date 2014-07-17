@@ -1,0 +1,28 @@
+{
+  "name": "css3-social-signin-buttons",
+  "version": "0.0.1",
+  "homepage": "https://github.com/necolas/css3-social-signin-buttons",
+  "authors": [
+    "Nicolas Gallagher http://nicolasgallagher.com"
+  ],
+  "description": "CSS3 Social Sign-in Buttons with icons. Small and large sizes.",
+  "main": "auth-buttons.css",
+  "ignore": [
+    "index.html",
+    "README.md"
+  ],
+  "keywords": [
+    "css3",
+    "social",
+    "signin",
+    "buttons",
+    "facebook",
+    "google",
+    "openid",
+    "twitter",
+    "github",
+    "windowslive",
+    "yahoo"
+  ],
+  "license": "Public domain: http://unlicense.org"
+}
