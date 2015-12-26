@@ -1,5 +1,7 @@
 # CSS3 Social Sign-in Buttons
 
+![unmaintained](http://img.shields.io/badge/status-unmaintained-red.png)
+
 CSS3 Social Sign-in Buttons with icons. Small and large sizes.
 
 ## Installation
