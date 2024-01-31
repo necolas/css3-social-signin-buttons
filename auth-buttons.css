@@ -271,21 +271,21 @@
 }
 
 
-/* Twitter
+/* X
    ========================================================================== */
 
 .btn-twitter,
 .btn-twitter:visited {
-    border-color: #a6cde6;
-    color: #327695;
-    background: #cfe4f0;
+    border-color: #aaaaaa;
+    color: #272727;
+    background: #e7e7e7;
     /* css3 */
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f1f5f7), to(rgba(255, 255, 255, 0)));
-    background-image: -webkit-linear-gradient(#f1f5f7, rgba(255, 255, 255, 0));
-    background-image: -moz-linear-gradient(#f1f5f7, rgba(255, 255, 255, 0));
-    background-image: -ms-linear-gradient(#f1f5f7, rgba(255, 255, 255, 0));
-    background-image: -o-linear-gradient(#f1f5f7, rgba(255, 255, 255, 0));
-    background-image: linear-gradient(#f1f5f7, rgba(255, 255, 255, 0));
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#aaaaaa), to(rgba(255, 255, 255, 0)));
+    background-image: -webkit-linear-gradient(#aaaaaa, rgba(255, 255, 255, 0));
+    background-image: -moz-linear-gradient(#aaaaaa, rgba(255, 255, 255, 0));
+    background-image: -ms-linear-gradient(#aaaaaa, rgba(255, 255, 255, 0));
+    background-image: -o-linear-gradient(#aaaaaa, rgba(255, 255, 255, 0));
+    background-image: linear-gradient(#aaaaaa, rgba(255, 255, 255, 0));
     -webkit-box-shadow: inset 0 1px 0 #fff;
     box-shadow: inset 0 1px 0 #fff;
 }
@@ -293,15 +293,15 @@
 .btn-twitter:hover,
 .btn-twitter:focus,
 .btn-twitter:active {
-    color: #327695;
-    border-color: #8dc2e4;
-    background-color: #cadde9;
+    color: #272727;
+    border-color: #aaaaaa;
+    background-color: #e7e7e7;
 }
 
 .btn-twitter:active {
-    background: #cadde9;
-    -webkit-box-shadow: inset 0 1px 0 #bbd6e7;
-    box-shadow: inset 0 1px 0 #bbd6e7;
+    background: #e7e7e7;
+    -webkit-box-shadow: inset 0 1px 0 #aaaaaa;
+    box-shadow: inset 0 1px 0 #aaaaaa;
 }
 
 /*
